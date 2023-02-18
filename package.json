@@ -2,11 +2,12 @@
   "name": "jobify-mern-ts-02-19-2023",
   "version": "1.0.0",
   "description": "controller of client and server in jobify-app",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "dev": "concurrently \"cd client && npm run dev\"",
+    "dev": "concurrently \"cd client && npm run dev\" \"npm run server-nodemon\"",
     "client": "cd client && npm run dev",
-    "server": "cd sever && npm run start"
+    "server": "cd sever && npm run start",
+    "server-nodemon": "nodemon server/server.ts"
   },
   "repository": {
     "type": "git",
