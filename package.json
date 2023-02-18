@@ -1,0 +1,19 @@
+{
+  "name": "jobify-mern-ts-02-19-2023",
+  "version": "1.0.0",
+  "description": "controller of client and server in jobify-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilfred05777/jobify-mern-ts-02-19-2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wilfred05777/jobify-mern-ts-02-19-2023/issues"
+  },
+  "homepage": "https://github.com/wilfred05777/jobify-mern-ts-02-19-2023#readme"
+}
