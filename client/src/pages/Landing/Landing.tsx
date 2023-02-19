@@ -4,22 +4,9 @@ import main from '../../assets/images/main.svg'
 import Link from 'react-router-dom'
 import styled from 'styled-components'
 
-const Button = styled.button`
-  background: red;
-  color: white;
-  font-size: 1rem;
-`
-const ButtonSecond = styled.button`
-  background: blue;
-  color: white;
-  font-size: 1rem;
-`
-
 const Landing = () => {
   return (
-    <main>
-      <Button>Click Me</Button>
-      <ButtonSecond>Click Me</ButtonSecond>
+    <Wrapper>
       <nav>
         <img src={logo} alt='jobify' className='logo' />
       </nav>
@@ -41,8 +28,17 @@ const Landing = () => {
         </div>
         <img src={main} alt='job hunt' className='img main-img' />
       </div>
-    </main>
+    </Wrapper>
   )
 }
+
+const Wrapper = styled.main`
+  width: var(--fluid-width);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+`
 
 export default Landing
