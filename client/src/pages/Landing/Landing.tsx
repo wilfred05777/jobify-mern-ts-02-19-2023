@@ -2,6 +2,9 @@ import React from 'react'
 import logo from '../../assets/images/logo.svg'
 import main from '../../assets/images/main.svg'
 import Link from 'react-router-dom'
+import styled from 'styled-components'
+
+const Button = styled.button``
 
 const Landing = () => {
   return (
