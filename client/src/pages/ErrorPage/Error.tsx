@@ -3,7 +3,7 @@ import Wrapper from '../../styles/styled-component/ErrorPage/ErrorPage'
 import img from '../../assets/images/not-found.svg'
 import { Link } from 'react-router-dom'
 
-export const ErrorPage = () => {
+export const Error = () => {
   return (
     <Wrapper>
       <div>
@@ -15,3 +15,5 @@ export const ErrorPage = () => {
     </Wrapper>
   )
 }
+
+export default Error
