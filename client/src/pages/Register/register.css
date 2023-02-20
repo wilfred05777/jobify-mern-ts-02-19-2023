@@ -1,0 +1,13 @@
+.member-btn{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;  
+  color: #2CB1BC;
+  font-weight: 700;
+}
+
+p.member-text{
+  color: #3d3c3c
+}
