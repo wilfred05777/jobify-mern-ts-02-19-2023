@@ -3,15 +3,13 @@ const FormRow = ({
   name,
   value,
   handleChange,
-  labelText,
-  className
+  labelText
 }: {
   type: any
   name: any
   value: any
   handleChange: any
   labelText?: any
-  className?: any
 }) => {
   return (
     <div className='form-row'>

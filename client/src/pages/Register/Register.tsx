@@ -67,7 +67,6 @@ const Register = () => {
           name='password'
           value={values.password}
           handleChange={handleChange}
-          className='form-input'
         />
         <button className='btn btn-block'>submit</button>
       </form>
