@@ -18,7 +18,9 @@ const Register = () => {
 
   const onSubmit = (e: any) => {
     e.preventDefault()
+
     const { name, email, password, isMember } = values
+    console.log(e.target.value.name)
     if (!email || !password || !isMember) {
       // displayAlert()
       return
@@ -26,6 +28,7 @@ const Register = () => {
   }
   const handleChange = (e: any) => {
     setValues({ ...values, [e.target.name]: e.target.value })
+    console.log(e.target.value.name)
   }
 
   useEffect(() => {
@@ -64,6 +67,7 @@ const Register = () => {
           name='password'
           value={values.password}
           handleChange={handleChange}
+          className='form-input'
         />
         <button className='btn btn-block'>submit</button>
       </form>
