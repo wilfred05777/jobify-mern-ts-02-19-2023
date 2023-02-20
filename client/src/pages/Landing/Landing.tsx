@@ -2,7 +2,7 @@ import React from 'react'
 import main from '../../assets/images/main.svg'
 import Link from 'react-router-dom'
 import './landing.css'
-import Wrapper from '../../styles/styled-component/Landing'
+import Wrapper from '../../styles/styled-component/Landing/Landing'
 
 import styled from 'styled-components'
 
