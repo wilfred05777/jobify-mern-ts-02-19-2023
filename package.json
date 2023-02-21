@@ -4,7 +4,7 @@
   "description": "controller of client and server in jobify-app",
   "main": "index.ts",
   "scripts": {
-    "dev": "concurrently \"cd client && npm run dev\" \"npm run server-nodemon\"",
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && nodemon server.ts\"",
     "dev-win":"concurrently \"cd client && npm run dev\" \"cd server && nodemon server.ts\"",
     "dev-linux": "concurrently \"cd client && npm run dev\" \"cd server && nodemon server.ts\"",
     "client": "cd client && npm run dev",
