@@ -20,7 +20,15 @@ const Register = () => {
   const [values, setValues] = useState(intialState)
 
   // global state and useNavigate
-  const { isLoading, showAlert, displayAlert } = useAppContext()
+  const {
+    isLoading,
+    showAlert,
+    displayAlert
+  }: {
+    isLoading: boolean
+    showAlert: boolean | null
+    displayAlert: boolean | string
+  } = useAppContext()
   // console.log(state)
 
   const toggleMember = () => {
